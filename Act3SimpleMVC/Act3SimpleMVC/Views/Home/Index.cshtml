@@ -1,0 +1,130 @@
+﻿@{
+    ViewData["Title"] = ".~* my little corner *~.";
+}
+
+<div class="page">
+
+    <h1>-~x welcome, sammi x~-</h1>
+    <p class="subtitle">que sera, sera 🌸</p>
+
+    <div class="grid">
+
+        @* daily todo *@
+        <section class="card">
+            <h2>📝 daily to-do</h2>
+			<small class="hint">you’re doing great ✨</small>
+            <div class="task-group">
+                <label><input type="checkbox"> drink 8 cups of water</label>
+                <label><input type="checkbox"> spend atleast 30 mins exercising</label>
+                <label><input type="checkbox"> finish a jp lesson in duolingo</label>
+                <label><input type="checkbox"> vocal warm ups and practice</label>
+                <label><input type="checkbox"> complete all meals</label>
+                <label><input type="checkbox"> practice piano</label>
+                <label><input type="checkbox"> learn a new short dance</label>
+                <label><input type="checkbox"> speaking practice for 10 minutes</label>
+            </div>
+        </section>
+
+        @* mood tracker *@
+        <section class="card">
+            <h2>💜 mood tracker </h2>
+			<small class="hint">today’s mood 💭</small>
+            <div class="mood-options">
+                <label><input type="radio" name="mood"> 😄 happy</label>
+                <label><input type="radio" name="mood"> 🙂 chill</label>
+                <label><input type="radio" name="mood"> 😐 okay</label>
+                <label><input type="radio" name="mood"> 😔 sad</label>
+                <label><input type="radio" name="mood"> 😫 stressed</label>
+            </div>
+        </section>
+
+        @* calendar *@
+        <section class="card">
+            <h2>📅 january 2026</h2>
+			<small class="hint">live to see another day ✨</small>
+            <table class="calendar">
+                <tr>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>T</th>
+                    <th>W</th>
+                    <th>T</th>
+                    <th>F</th>
+                    <th>S</th>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1<br>😊</td>
+                    <td>2<br>🙂</td>
+                    <td>3<br>😐</td>
+                </tr>
+                <tr>
+                    <td>4<br>😄</td>
+                    <td>5<br>🙂</td>
+                    <td>6<br>😐</td>
+                    <td>7<br>😊</td>
+                    <td>8<br>🙂</td>
+                    <td>9<br>😐</td>
+                    <td>10<br>🙂</td>
+                </tr>
+                <tr>
+                    <td>11<br>😊</td>
+                    <td>12<br>🙂</td>
+                    <td>13<br>😔</td>
+                    <td>14<br>🙂</td>
+                    <td>15<br>😊</td>
+                    <td>16<br>😔</td>
+                    <td>17<br>😔</td>
+                </tr>
+                <tr>
+                    <td>18<br>😫</td>
+                    <td>19<br>😫</td>
+                    <td>20<br>😫</td>
+                    <td>21<br>😔</td>
+                    <td class="today">22<br>💜</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+            </table>
+
+            
+        </section>
+
+        @* journal *@
+        <section class="card journal-card">
+            <h2>📓 journal</h2>
+
+            <textarea placeholder="how was your day today?~"></textarea>
+
+            <div class="schedule">
+                <h3>tasks for today</h3>
+                <label><input type="checkbox"> finish remaining projects and homework</label>
+                <label><input type="checkbox"> clear up pc storage</label>
+                <label><input type="checkbox"> record a video presentation</label>
+            </div>
+
+            <button>save entry</button>
+
+            <h3>records</h3>
+            <ul class="journal-history">
+                <li>jan 21 – stressed filled day TwT</li>
+                <li>jan 20 – tired and busy -.-</li>
+                <li>jan 19 – busy busy busy with acads ;o;</li>
+            </ul>
+        </section>
+
+    </div>
+</div>

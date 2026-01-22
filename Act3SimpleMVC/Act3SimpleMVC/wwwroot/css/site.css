@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #e6d9ff, #f4ecff);
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4b3a6a;
+}
+
+.page {
+    width: 1100px;
+    height: 720px;
+    background: #faf7ff;
+    border-radius: 20px;
+    padding: 18px 28px;
+    box-shadow: 0 15px 40px rgba(120, 90, 160, 0.3);
+}
+
+/* title */
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.6em;
+    color: #5a3d85;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 4px 0 12px;
+    font-size: 0.9em;
+}
+
+/* grid */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 12px;
+    height: calc(100% - 70px);
+}
+
+/* cards */
+.card {
+    background: #f1e9ff;
+    border-radius: 12px;
+    padding: 10px 14px;
+    box-shadow: inset 0 0 0 1px #dccbff;
+    font-size: 0.9em;
+}
+
+    .card h2 {
+        margin: 0 0 6px;
+        font-size: 1.05em;
+        color: #6b4fa3;
+    }
+
+    .card h3 {
+        margin: 8px 0 4px;
+        font-size: 0.95em;
+        color: #6b4fa3;
+    }
+
+/* labels */
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* calendar */
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .calendar th,
+    .calendar td {
+        border: 1px solid #cdbbff;
+        padding: 3px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+.today {
+    background: #d8c6ff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+/* journal */
+textarea {
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid #cdbbff;
+    padding: 6px;
+    resize: none;
+    background: #faf7ff;
+    font-size: 0.9em;
+}
+
+.journal-history {
+    margin: 4px 0 0;
+    padding-left: 16px;
+    font-size: 0.85em;
+}
+
+button {
+    margin-top: 6px;
+    padding: 5px 14px;
+    border: none;
+    border-radius: 18px;
+    background: #b79cff;
+    color: white;
+    font-size: 0.85em;
+    cursor: pointer;
+}
+
+    button:hover {
+        background: #9f82ff;
+    }
+
+.hint {
+    font-size: 0.8em;
+    color: #6b4fa3;
+}
