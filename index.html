@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samantha Marion C. Salgado's Portfolio Website - Web Developer & Content Creator">
+    <meta name="keywords" content="web developer, content creator, VTuber, computer science, portfolio">
+    <title>Sammie's Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="loader">
+            <div class="spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <div class="floating-controls">
+        <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <header>
+        <div class="header-content">
+            <h1 id="header-title">
+                <i class="fas fa-star"></i> Sammie's Portfolio
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About Me</a></li>
+                    <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fas fa-briefcase"></i> Projects</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-socials">
+                <a href="https://github.com/ssmnthmc" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/samantha-marion-salgado-380341296/" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/ssmnthmc/" target="_blank" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:ssmnthmc24@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section home-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="animate-text">Hi hi~ Welcome to my Portfolio Website !</h2>
+                    <p class="welcome-message animate-text">Ya-ho~! I am <span class="highlight">Samantha Marion C. Salgado</span>, a future web developer and aspiring content creator.</p>
+                    <div class="profile-container">
+                        <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+                    </div>
+                    <p class="intro-text animate-text">
+                        A surviving student with a love for technology and VTubers. I love learning about new things that can be of use to me in the future, as well as having fun and enjoying life while making content with friends (✿◠‿◠)
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me ⸜(｡˃ ᵕ ˂ )⸝♡</h2>
+                <div class="about-content">
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fas fa-person"></i></div>
+                        <h3>Personal Background</h3>
+                        <p>I am currently 20 yrs old (August 3, 2005). I live in <span class="highlight-text">Pandacan, Manila</span>, which is only a walking distance from PUP. I am the eldest of 3 children.</p>
+                        <ul class="hobby-list">
+                            <li> My favorite colors are: purple (any shade), dark/wine red, yellow (any shade), and neutral.</li>
+                            <li> The age gap between me and my younger sister is 4 years, and with our youngest brother is 6 years.</li>
+                            <li> I love desserts and anything sweet.</li>
+                            <li> I can play many instruments (guitar, piano, ukelele, recorder, kalimba, harmonica, bass guitar).</li>
+                            <li> I played table tennis competitively during elementary and now I casually play badminton with my brother.</li>
+                            <li> I can learn any rhythm game almost quickly and play well with a lot of rhythm games.</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Educational Background</h3>
+                        <p>I am currently a 3rd Year <span class="highlight-text">Computer Science</span> student at <span class="highlight-text">Polytechnic University of the Philippines</span>.</p>
+                        <ul class="hobby-list">
+                            <li> Attended Grade 1 to Grade 6 in Bagong Diwa Elementary School.</li>
+                            <li> Attended Grade 7 to Grade 10 in PUP Laboratory High School.</li>
+                            <li> Attended Grade 11 to 12 in PUP Senior High School.</li>
+                            <li> Was in a Dance Troupe during elementary and competed frequently.</li>
+                            <li> Was in a Drum and Lyre Band during high school and was the Lyre Captain.</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fas fa-palette"></i></div>
+                        <h3>Hobbies and Interests</h3>
+                        <ul class="hobby-list">
+                            <li><i class="fas fa-music"></i> Performing (dancing, singing, voice acting)</li>
+                            <li><i class="fas fa-laptop-code"></i> Learning new technologies and gadgets</li>
+                            <li><i class="fas fa-gamepad"></i> Discovering and playing games with friends</li>
+                            <li><i class="fas fa-video"></i> Watching and supporting my favorite VTubers</li>
+                            <li><i class="fas fa-star"></i> Trying out new things</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fas fa-flag"></i></div>
+                        <h3>Goals and Ambitions</h3>
+                        <p>I have a lot of goals in life that I want to achieve as soon as possible. Mainly I want to provide for my family so that my parents can rest and enjoy their life after all their hardwork. Below are some other goals that I want to achieve in the future:</p>
+                        <ul class="goal-list">
+                            <li><i class="fas fa-check"></i> Have a stable job and be financially stable</li>
+                            <li><i class="fas fa-check"></i> Learn valuable things in life and pass them on to other people</li>
+                            <li><i class="fas fa-check"></i> Make lots of memories with people I cherish</li>
+                            <li><i class="fas fa-check"></i> Be a performer/content creator (VTuber) and make new friends and spread happiness to other people ♡</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">My Skills ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧</h2>
+                <div class="skills-content">
+                    <div class="skills-table-container">
+                        <div class="card-icon"><i class="fas fa-desktop"></i></div>
+                        <h3>CS Technical Skills</h3>
+                        <table class="skills-table">
+                            <thead>
+                                <tr>
+                                    <th><i class="fas fa-code"></i> Skill</th>
+                                    <th><i class="fas fa-chart-bar"></i> Level</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td><i class="fab fa-html5"></i> HTML</td><td><span class="level-badge novice">Novice</span></td></tr>
+                                <tr><td><i class="fab fa-css3-alt"></i> CSS</td><td><span class="level-badge novice">Novice</span></td></tr>
+                                <tr><td><i class="fab fa-js"></i> JavaScript</td><td><span class="level-badge beginner">Beginner</span></td></tr>
+                                <tr><td><i class="fas fa-c"></i> C, C++, C#</td><td><span class="level-badge novice">Novice</span></td></tr>
+                                <tr><td><i class="fab fa-python"></i> Python</td><td><span class="level-badge beginner">Beginner</span></td></tr>
+                                <tr><td><i class="fab fa-java"></i> Java</td><td><span class="level-badge novice">Novice</span></td></tr>
+                                <tr><td><i class="fas fa-database"></i> SQL</td><td><span class="level-badge intermediate">Intermediate</span></td></tr>
+                            </tbody>
+                        </table>
+
+                        <div class="progress-container">
+                            <h4><i class="fas fa-tasks"></i> Skill Progress</h4>
+                            <div class="progress-bar">
+                                <span><i class="fab fa-html5"></i> HTML</span>
+                                <div class="progress"><div class="progress-value" data-width="70%"></div></div>
+                            </div>
+                            <div class="progress-bar">
+                                <span><i class="fab fa-css3-alt"></i> CSS</span>
+                                <div class="progress"><div class="progress-value" data-width="70%"></div></div>
+                            </div>
+                            <div class="progress-bar">
+                                <span><i class="fab fa-js"></i> JavaScript</span>
+                                <div class="progress"><div class="progress-value" data-width="40%"></div></div>
+                            </div>
+                            <div class="progress-bar">
+                                <span><i class="fab fa-python"></i> Python</span>
+                                <div class="progress"><div class="progress-value" data-width="20%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-list-container">
+                        <div class="card-icon"><i class="fas fa-star"></i></div>
+                        <h3>Other Skills</h3>
+                        <div class="skills-list">
+                            <h4><i class="fas fa-handshake"></i> Soft Skills</h4>
+                            <ul>
+                                <li><i class="fas fa-star"></i> Basic Communication Skills</li>
+                                <li><i class="fas fa-star"></i> Problem Solving</li>
+                                <li><i class="fas fa-star"></i> Cooperation and Teamwork</li>
+                                <li><i class="fas fa-star"></i> Quick and Critical Thinking</li>
+                                <li><i class="fas fa-star"></i> Time Management</li>
+                            </ul>
+                        </div>
+                        <div class="skills-list">
+                            <h4><i class="fas fa-tools"></i> Additional Technical Skills</h4>
+                            <ul>
+                                <li><i class="fas fa-star"></i> Advanced Research</li>
+                                <li><i class="fas fa-star"></i> Video Creation and Editing</li>
+                                <li><i class="fas fa-star"></i> Audio Editing</li>
+                                <li><i class="fas fa-star"></i> Project Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects & Gallery °❀⋆.ೃ࿔*:･</h2>
+                <p class="section-description">Here are some projects I have done in the past (and my current fav photo)</p>
+                
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <div class="image-wrapper" data-src="project1.png">
+                            <img src="project1.png" alt="Project 1" class="gallery-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                                <p>View Project</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3><i class="fab fa-html5"></i> Web Development Activity</h3>
+                            <p>A simple web page about my VTuber kamioshi created for web dev class.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="image-wrapper" data-src="project2.png">
+                            <img src="project2.png" alt="Project 2" class="gallery-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                                <p>View Project</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3><i class="fas fa-mobile-alt"></i> App Dev Final - IskoWalk</h3>
+                            <p>A group final project for our app dev class that I spearheaded.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Java</span>
+                                <span class="project-tag">Team Lead</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="image-wrapper" data-src="project3.png">
+                            <img src="project3.png" alt="Project 3" class="gallery-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                                <p>View Project</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3><i class="fab fa-php"></i> Web Dev Activity</h3>
+                            <p>A program I created showing how PHP and MySQL function together.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">PHP</span>
+                                <span class="project-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="image-wrapper" data-src="certificate.png">
+                            <img src="certificate.png" alt="Certificate" class="gallery-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                                <p>View Photo</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3><i class="fas fa-certificate"></i> Webinar Certificate</h3>
+                            <p>Certificate of Participation from AI / Machine Learning Webinar</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Certificate</span>
+                                <span class="project-tag">Webinar</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="image-wrapper" data-src="hobby1.png">
+                            <img src="hobby1.png" alt="Music" class="gallery-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                                <p>View Photo</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3><i class="fas fa-music"></i> My Latest Work-In-Progress (WIP) Cover</h3>
+                            <p>Whole overview of my Bandlab project that's still in the works</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Bandlab</span>
+                                <span class="project-tag">Music</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="image-wrapper" data-src="hobby2.png">
+                            <img src="hobby2.png" alt="YT Channel" class="gallery-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                                <p>View Photo</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3><i class="fa fa-youtube" aria-hidden="true"></i></i> My Youtube Channel</h3>
+                            <p>My current channel where I upload gameplay clips and song covers.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Youtube</span>
+                                <span class="project-tag">Content</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="image-wrapper" data-src="art.png">
+                            <img src="art.png" alt="Original Artwork" class="gallery-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                                <p>View Photo</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3><i class="fa fa-paint-brush" aria-hidden="true"></i></i> Art Appreciation Project</h3>
+                            <p>An original artwork that I created for our Art Appreciation final project.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Artwork</span>
+                                <span class="project-tag">Creativity</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="image-wrapper" data-src="njen3d.jfif">
+                            <img src="njen3d.jfif" alt="VTubers in 3D" class="gallery-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                                <p>View Photo</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3><i class="fas fa-gamepad"></i> NIJISANJI EN's 5th Anniversary</h3>
+                            <p>Some of my favorite VTubers in 3D participating in activities for their 5th anniversary.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">VTubers</span>
+                                <span class="project-tag">3D</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="image-wrapper" data-src="klxcheki.jfif">
+                            <img src="klxcheki.jfif" alt="Cheki (Polaroid)" class="gallery-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                                <p>View Photo</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3><i class="fas fa-person"></i> Kaelix Debonair's Latest Cheki</h3>
+                            <p>Taken after his 'Abba Songs Only Karaoke' last June 13th.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Polaroid</span>
+                                <span class="project-tag">Favorite</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact Me ꉂ(˵˃ ᗜ ˂˵)</h2>
+                <p class="section-description">Feel free to reach out to me and send me a message through this form!</p>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3><i class="fas fa-info-circle"></i> Get in Touch</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span class="label">Webmail:</span>
+                                    samanthamarioncsalgado@iskolarngbayan.pup.edu.ph
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-facebook"></i>
+                                <div>
+                                    <span class="label">Facebook:</span>
+                                    Samantha Salgado
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-discord"></i>
+                                <div>
+                                    <span class="label">Discord:</span>
+                                    alexei24_
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name"><i class="fas fa-user"></i> Name:</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i> Email Address:</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message"><i class="fas fa-message"></i> Message:</label>
+                                <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">
+                                <i class="fas fa-paper-plane"></i> Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-star"></i> Sammie's Portfolio</h3>
+                <p>Web Developer & Content Creator</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/ssmnthmc" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/samantha-marion-salgado-380341296/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/ssmnthmc/" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_ssmnthmc/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:ssmnthmc24@gmail.com">ssmnthmc24@gmail.com</a></li>
+                    <li><i class="fas fa-mobile-alt"></i> 0999-114-0952</li>
+                    <li><i class="fas fa-graduation-cap"></i> PUP - Computer Science</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Samantha Marion C. Salgado. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="image-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img id="modal-image" src="" alt="Full Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
